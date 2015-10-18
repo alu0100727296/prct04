@@ -21,3 +21,140 @@
     [5] => "changed"
     
     [6] changed
+    
+41) COn pry he de escribir el metodo con ruby en ejecucion
+
+48) con El primero "\t\n" -> lo interpreta tal cual pero con '\t\n'
+    obtenemos: "\\t\\n"
+    
+49)
+ %q{hello world\n}
+ => "hello world\\n" 
+
+ %q{'a' 'b' 'c'}
+ => "'a' 'b' 'c'" 
+ 
+       -> imprime tal cual esacapando caracteres
+       
+50)
+ %Q{hello world\n}
+ => "hello world\n" 
+> %q{"a" "b" "c"}
+ => "\"a\" \"b\" \"c\""
+ 
+ 51) "--4--\n--2--\n"
+ 
+52) "--\#{a}--\n--\#{b}--\n"
+
+53) he
+    o
+    hello
+    
+54) "hello world"
+
+55) "..."
+
+56) "2 2 2 "
+
+57) ["this", "is", "a", "test"]
+
+58) ["\\t", "\\n"]
+
+59) ["\t", "\n"]
+
+60) [nil, nil, nil]
+
+61) [0, 0, 0]
+
+62) [[1, 2], [3, 4]]
+
+63) [0, 2, 4]
+
+64) ["b"]
+    ["d", "e"]
+    ["a", "b", "c"]
+    ["a"]
+    ["d", "e"]
+    
+65) ["A", "B", "c", "d", "e"]
+    ["A", "B", "C", "D", "E"]
+    [1, 2, 3, "A", "B", "C", "D", "E"]
+    [3, "A", "B", "C", "D", "E"]
+    [3, "A", "B", "C", "D", "Z"]
+    [3, "A", "B", "C", nil]
+    
+66) [1, 2, 3]
+    [1, 2, 3, 4, 5]
+    [1, 2, 3, 4, 5, [6, 7, 8]]
+    TypeError: no implicit conversion of Fixnum into Array
+from (pry):60:in `+'
+
+67) ["a", "b", "c", "b", "a"]
+    ["a", "a"]
+    
+68) [0, 0, 0, 0, 0, 0, 0, 0]
+
+69) [1]
+    [1, 2, 3]
+    [1, 2, 3, [4, 5, 6]]
+    [1, 2, 3, [4, 5, 6], 7, 8]
+    
+    
+70) [1, 2, 3, 4, 5]
+    [5, 4, 3, 2, 1]
+    [2, 3, 4]
+    [4, 3, 2]
+    
+    
+71) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    false
+    true
+    1...10
+    
+    
+72) true
+    true
+    true
+    
+
+73) TrueClass
+    FalseClass
+    hello
+=> nil
+    nil
+    hello
+=> nil
+
+
+74) Symbol 
+    false
+    true
+    Symbol
+    true
+    true
+    
+    
+75) "Ruby"
+    ""
+    Rub=> nil
+    "Java"
+    RubJava=> nil
+    
+76) "3 rubies"
+
+77) [4, 5]
+    5
+    [1, 2, 3]
+    
+78) {:a=>1, :b=>2}
+    [:a, :b]
+    [1, 2]
+    3
+    {:a=>1, :b=>2, :c=>3}
+    {:a=>1, :b=>2, :c=>3}
+    {:b=>2, :c=>3}
+    {:a=>1}
+    {:a=>1}
+    
+    80) ["hello", "world", "hello", "LPP"]
