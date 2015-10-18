@@ -1,3 +1,6 @@
 1) ¿Que es RVM?
     es un unix-como plataforma de software diseñada para gestionar varias 
     instalaciones de Rubí en el mismo dispositivo
+    
+33) hello world
+34) Mismo resultado
