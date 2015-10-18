@@ -4,3 +4,20 @@
     
 33) hello world
 34) Mismo resultado
+
+
+40)
+    [1] 10
+        => nil
+        
+    [2] :hello
+    
+    [3] hello world
+        => nil
+        
+    [4] bye bye world!!!
+        => nil
+        
+    [5] => "changed"
+    
+    [6] changed
